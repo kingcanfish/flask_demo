@@ -1,7 +1,9 @@
-#DEMO 文档
+# DEMO 文档
+
+BaseURI: `https://demo.guoxy.top`
 
 ## 1.获取学生列表
- + URL:/api/students
+ + URL:/students
  + METHOD:GET
  + RETURN
     ```json
@@ -29,7 +31,7 @@
     ```
     
 ## 2.获取指定学生
- + URL:/api/students/\<int\>
+ + URL:/students/\<int\>
  + METHOD:GET
  + RETURN
     ```json
@@ -58,7 +60,7 @@
     ```
     
 ## 3.添加学生
- + URL:/api/students/append
+ + URL:/students/append
  + METHOD:POST
  + PARAMS
    ```json
@@ -80,7 +82,7 @@
  
 ## 4.删除学生
 
- + URL:/api/students
+ + URL:/students
  + METHOD: DELETE
  + PARAMS
    ```json
@@ -100,7 +102,7 @@
  
  ## 5.修改学生描述
 
- + URL:/api/students
+ + URL:/students
  + METHOD: DELETE
  + PARAMS
    ```json
